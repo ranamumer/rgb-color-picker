@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RGB Color Picker</title>
+   <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+   <h1>RGB Color Picker</h1>
+   <div id="screen"></div>
+   <div id="sliders">
+      <div id="red-slider" class="slider">
+         <div class="output">Red</div>
+         <input type="number" step="1" min="0" max="255">
+         <input type="range" step="1" min="0" max="255">
+      </div>
+      <div id="green-slider" class="slider">
+         <div class="output">Green</div>
+         <input type="number" step="1" min="0" max="255">
+         <input type="range" step="1" min="0" max="255">
+      </div>
+      <div id="blue-slider" class="slider">
+         <div class="output">Blue</div>
+         <input type="number" step="1" min="0" max="255">
+         <input type="range" step="1" min="0" max="255">
+      </div>
+   </div>
+</body>
+
+<script src="./app.js"></script>
+
+</html>
